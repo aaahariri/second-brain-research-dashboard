@@ -143,7 +143,7 @@ export function MarkdownInput({
               <p className="text-sm font-medium text-muted-foreground">
                 Or try a sample document:
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
+              <div className="grid grid-cols-2 md:grid-cols-6 gap-2">
                 {sampleDocuments.map((doc) => (
                   <Button
                     key={doc.id}
